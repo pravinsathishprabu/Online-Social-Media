@@ -1,0 +1,104 @@
+.frds{	
+		color: black;
+		height: 50px;
+		margin-top: 10px;
+	}
+	.but-box{
+	  height: 610px;
+	  max-width: 400px;
+	  padding: 10px;
+	  border: 1px solid black;
+	  margin: 0;
+	  background-color: white;
+	  color: black;
+	  margin-top: 10px;
+}
+.msg-box{
+	  min-height: 450px;
+	  min-width: 500px;
+	  padding: 10px;
+	  border: 1px solid black;
+	  margin: 0;
+	  color: black;
+	  margin-top: 10px;
+}
+.type-box{
+	  min-height: 50px;
+	  min-width: 600px;
+	  padding: 10px;
+	  border: 1px solid white;
+	  background-color:  white;
+	  color: black;
+	  margin-top: 10px;
+}
+.au-but-box{
+	  min-height: 600px;
+	  min-width: 800px;
+	  padding: 5px;
+	  border: 1px solid black;
+	  margin: 0;
+	  background-color:  white;
+	  color: black;
+	  margin-top: 10px;
+}
+header
+{
+	font-family: 'Lobster', cursive;
+	text-align: center;
+	font-size: 25px;	
+}
+
+#info
+{
+	font-size: 18px;
+	color: #555;
+	margin-bottom: 25px;
+}
+
+a{
+	color: #074E8C;
+}
+
+.scrollbar
+{
+	float: left;
+	height: 450px;
+	width: 750px;
+	background-image: url('img/chatback.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	overflow-y: scroll;
+}
+.scrollbar3
+{
+	float: left;
+	height: 500px;
+	width: 380px;
+	background: #F5F5F;
+	overflow-y: scroll;
+}
+.force-overflow
+{
+	min-height: 1000px;
+}
+
+#wrapper
+{
+	text-align: center;
+	width: 800px;
+}
+#style-3::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar
+{
+	width: 2px;
+}
+
+#style-3::-webkit-scrollbar-thumb
+{
+	background-color: #000000;
+}
